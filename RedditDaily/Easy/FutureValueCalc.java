@@ -16,8 +16,6 @@ public class FutureValueCalc {
         float EAR = (float)Math.pow((1+i),n);
         System.out.println("Are you planning on making regular contributions or withdrawals from the inital deposit? ");
         String pmtQ = reader.next();
-
-        //Test Shit beneath here
         System.out.println("Your PV " + pv + ", your pr " + pr + ", your i " + i +", your n " + n +" EAR " + EAR);
         float pmt;
         if (pmtQ.equals("Yes")){
