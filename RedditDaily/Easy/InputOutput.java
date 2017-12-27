@@ -2,7 +2,7 @@ package com.example.java;
 
 import java.util.Scanner;
 
-public class inputoutput {
+public class InputOutput {
     Scanner reader = new Scanner(System.in);
         System.out.println("What is your name? ");
     String name = reader.next();
