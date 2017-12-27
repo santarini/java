@@ -16,7 +16,7 @@ public class FutureValueCalc {
         float EAR = (float)Math.pow((1+i),n);
         System.out.println("Are you planning on making regular contributions or withdrawals from the inital deposit? ");
         String pmtQ = reader.next();
-        System.out.println("Your PV " + pv + ", your pr " + pr + ", your i " + i +", your n " + n +" EAR " + EAR);
+        //System.out.println("Your PV " + pv + ", your pr " + pr + ", your i " + i +", your n " + n +" EAR " + EAR);
         float pmt;
         if (pmtQ.equals("Yes")){
             System.out.println("How much are you planning to withdraw or deposit (net contribution)?");
@@ -24,6 +24,6 @@ public class FutureValueCalc {
         }else pmt = 0;
         float fvPMT = (pmt *(EAR - 1)/i);
         float fv = ((pv * EAR) + fvPMT);
-        System.out.println(fv);
+        System.out.println("In " + n + " years, your " + pv + " investment will be worth " + fv);
     }
 }
