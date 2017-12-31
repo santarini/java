@@ -2,7 +2,7 @@ package com.example.java;
 
 import java.util.Scanner;
 
-public class FutureValueCalc {
+public class _02_FutureValueCalc {
 
     public static void main(String[] args) {
         Scanner reader = new Scanner(System.in);
