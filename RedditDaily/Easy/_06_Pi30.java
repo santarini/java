@@ -1,6 +1,6 @@
 package com.example.java;
 
-public class Pi30 {
+public class _06_Pi30 {
 
     public static void main(String[] args) {
         double number = Math.PI;
